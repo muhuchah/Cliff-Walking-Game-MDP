@@ -271,7 +271,6 @@ class MDP:
                 converged = 0
             iter_cnt += 1
 
-        print(iter_cnt)
         self.update_pi()
 
 
@@ -299,7 +298,7 @@ class MDP:
 
 # Define the maximum number of iterations
 max_iter_number = 1000
-iter_of_mdp = 1000
+iter_of_mdp = 2000
 gama = 0.99
 current_state = (3, 0)
 wins = 0
